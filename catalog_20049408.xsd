@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- [prolog define] -->
+<!-- 
+    Author: Khemraj Singh Thakuri
+    Date: 2022/04/29
+    LondonmetID: 20049408
+ -->
+
+ <!-- Flat Catalog Design  -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" 
+elementFormDefault="qualified" >
+
+<!-- Root Element -->
+<!-- child elements of giftcard root element define -->
+    <xs:element name="GiftCard">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Header" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element ref="Title" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element ref="CardSection" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element ref="Footer" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+            <xs:attribute ref="storename" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- child elements of header element define -->
+    <xs:element name="Header">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Logo"/>
+                <xs:element ref="BrandName"/>
+                <xs:element ref="Navbar"/>
+                <xs:element ref="ShopCartlogo"/>
+                <xs:element ref="Walletlogo"/>
+                <xs:element ref="Userlogo"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+     <!-- child elements of Navbar element define -->
+    <xs:element name="Navbar">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Home"/>
+                <xs:element ref="Shop"/>
+                <xs:element ref="About"/>
+                <xs:element ref="Contact"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- child elements of CardSection element define -->
+    <xs:element name="CardSection">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Card1" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element ref="Card2" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element ref="Card3" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element ref="Card4" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element ref="Card5" minOccurs="1" maxOccurs="unbounded"/>
+                <xs:element ref="Card6" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- child elements of Card1 element define -->
+    <xs:element name="Card1">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="FavouriteIcon" minOccurs="0"/>
+                <xs:element ref="Price" minOccurs="1"/>
+                <xs:element ref="StreamIMG" minOccurs="1"/>
+                <xs:element ref="Name" minOccurs="1"/>
+                <xs:element ref="Discount" minOccurs="1"/>
+                <xs:element ref="ValidDate" minOccurs="1"/>
+                <xs:element ref="Availability" minOccurs="1"/>
+                <xs:element ref="Delivery" minOccurs="0"/>
+                <xs:element ref="Button" minOccurs="1"/>
+                <xs:element ref="Rating" minOccurs="1"/>
+                <xs:element ref="Review" minOccurs="0"/>
+            </xs:sequence>
+            <xs:attribute ref="cid" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- child elements of Card2 element define -->
+    <xs:element name="Card2">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="FavouriteIcon" minOccurs="0"/>
+                <xs:element ref="Price" minOccurs="1"/>
+                <xs:element ref="RazerIMG" minOccurs="1"/>
+                <xs:element ref="Name" minOccurs="1"/>
+                <xs:element ref="Discount" minOccurs="1"/>
+                <xs:element ref="ValidDate" minOccurs="1"/>
+                <xs:element ref="Availability" minOccurs="1"/>
+                <xs:element ref="Delivery" minOccurs="0"/>
+                <xs:element ref="Button" minOccurs="1"/>
+                <xs:element ref="Rating" minOccurs="1"/>
+                <xs:element ref="Review" minOccurs="0"/>
+            </xs:sequence>
+            <xs:attribute ref="cid" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- child elements of Card3 element define -->
+    <xs:element name="Card3">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="FavouriteIcon" minOccurs="0"/>
+                <xs:element ref="Price" minOccurs="1"/>
+                <xs:element ref="PlaystationIMG" minOccurs="1"/>
+                <xs:element ref="Name" minOccurs="1"/>
+                <xs:element ref="Discount" minOccurs="1"/>
+                <xs:element ref="ValidDate" minOccurs="1"/>
+                <xs:element ref="Availability" minOccurs="1"/>
+                <xs:element ref="Delivery" minOccurs="0"/>
+                <xs:element ref="Button" minOccurs="1"/>
+                <xs:element ref="Rating" minOccurs="1"/>
+                <xs:element ref="Review" minOccurs="0"/>
+            </xs:sequence>
+            <xs:attribute ref="cid" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    
+    <!-- child elements of Card4 element define -->
+    <xs:element name="Card4">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="FavouriteIcon" minOccurs="0"/>
+                <xs:element ref="Price" minOccurs="1"/>
+                <xs:element ref="AppleIMG" minOccurs="1"/>
+                <xs:element ref="Name" minOccurs="1"/>
+                <xs:element ref="Discount" minOccurs="1"/>
+                <xs:element ref="ValidDate" minOccurs="1"/>
+                <xs:element ref="Availability" minOccurs="1"/>
+                <xs:element ref="Delivery" minOccurs="0"/>
+                <xs:element ref="Button" minOccurs="1"/>
+                <xs:element ref="Rating" minOccurs="1"/>
+                <xs:element ref="Review" minOccurs="0"/>
+            </xs:sequence>
+            <xs:attribute ref="cid" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- child elements of Card5 element define -->
+    <xs:element name="Card5">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="FavouriteIcon" minOccurs="0"/>
+                <xs:element ref="Price" minOccurs="1"/>
+                <xs:element ref="XboxIMG" minOccurs="1"/>
+                <xs:element ref="Name" minOccurs="1"/>
+                <xs:element ref="Discount" minOccurs="1"/>
+                <xs:element ref="ValidDate" minOccurs="1"/>
+                <xs:element ref="Availability" minOccurs="1"/>
+                <xs:element ref="Delivery" minOccurs="0"/>
+                <xs:element ref="Button" minOccurs="1"/>
+                <xs:element ref="Rating" minOccurs="1"/>
+                <xs:element ref="Review" minOccurs="0"/>
+            </xs:sequence>
+            <xs:attribute ref="cid" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- child elements of Card6 element define -->
+    <xs:element name="Card6">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="FavouriteIcon" minOccurs="0"/>
+                <xs:element ref="Price" minOccurs="1"/>
+                <xs:element ref="GoogleplayIMG" minOccurs="1"/>
+                <xs:element ref="Name" minOccurs="1"/>
+                <xs:element ref="Discount" minOccurs="1"/>
+                <xs:element ref="ValidDate" minOccurs="1"/>
+                <xs:element ref="Availability" minOccurs="1"/>
+                <xs:element ref="Delivery" minOccurs="0"/>
+                <xs:element ref="Button" minOccurs="1"/>
+                <xs:element ref="Rating" minOccurs="1"/>
+                <xs:element ref="Review" minOccurs="0"/>
+            </xs:sequence>
+            <xs:attribute ref="cid" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- child elements of Button element define -->
+    <xs:element name="Button">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Addtocart"/>
+                <xs:element ref="Buy"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <!-- child elements of Rating element define -->
+    <xs:element name="Rating">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="star" minOccurs="0"/>
+                <xs:element ref="star" minOccurs="0"/>
+                <xs:element ref="star" minOccurs="0"/>
+                <xs:element ref="star" minOccurs="0"/>
+                <xs:element ref="halfstar"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- child elements of Footer element define -->
+    <xs:element name="Footer">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Aboutus"/>
+                <xs:element ref="ContactInfo"/>
+                <xs:element ref="Payment"/>
+                <xs:element ref="Follow"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- child elements of Aboutus element define -->
+    <xs:element name="Aboutus">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Heading"/>
+                <xs:element ref="GiftcardAbout" minOccurs="0"/>
+            </xs:sequence>
+            <xs:attribute ref="heading" use="optional"/>
+        </xs:complexType>
+    </xs:element>
+    
+    <!-- child elements of ContactInfo element define -->
+    <xs:element name="ContactInfo">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Heading"/>
+                <xs:element ref="location"/>
+                <xs:element ref="Address"/>
+                <xs:element ref="Email"/>
+                <xs:element ref="PhoneNO"/>
+                <xs:element ref="WebsiteURL"/>
+            </xs:sequence>
+            <xs:attribute ref="location" use="required"/>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- child elements of Payment element define -->
+    <xs:element name="Payment">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Heading" minOccurs="0"/>
+                <xs:element ref="Methods"/>
+            </xs:sequence>
+            <xs:attribute ref="method" use="required"/>
+        </xs:complexType>
+    </xs:element>
+    
+    <!-- child elements of Methods element define -->
+    <xs:element name="Methods">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Visa"/>
+                <xs:element ref="Mastercard"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- child elements of Follow element define -->
+    <xs:element name="Follow">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Heading"/>
+                <xs:element ref="SocialLink"/>
+            </xs:sequence>
+            <xs:attribute ref="sites" use="optional"/>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- child elements of SocialLink element define -->
+    <xs:element name="SocialLink">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="Facebook"/>
+                <xs:element ref="Instagram"/>
+                <xs:element ref="Twitter"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Simple type elemets define -->
+    <xs:element name="Logo"/>
+    <xs:element name="ShopCartlogo"/>
+    <xs:element name="Walletlogo"/>
+    <xs:element name="Userlogo"/>
+    <xs:element name="BrandName" type="xs:string"/>
+    <xs:element name="Home" type="xs:string"/>
+    <xs:element name="Shop" type="xs:string"/>
+    <xs:element name="About" type="xs:string"/>
+    <xs:element name="Contact" type="xs:string"/>
+    <xs:element name="Title" type="xs:string"/>
+    <xs:element name="FavouriteIcon" type="xs:string"/>
+    <xs:element name="Name" type="xs:string"/>
+    <xs:element name="Price" type="xs:string"/>
+    <xs:element name="StreamIMG" type="xs:string"/>
+    <xs:element name="RazerIMG" type="xs:string"/>
+    <xs:element name="PlaystationIMG" type="xs:string"/>
+    <xs:element name="AppleIMG" type="xs:string"/>
+    <xs:element name="XboxIMG" type="xs:string"/>
+    <xs:element name="GoogleplayIMG" type="xs:string"/>
+    <xs:element name="Discount" type="xs:string"/>
+    <xs:element name="ValidDate" type="xs:string"/>
+    <xs:element name="Availability" type="xs:string"/>
+    <xs:element name="Delivery" type="xs:string"/>
+    <xs:element name="Addtocart" type="xs:string"/>
+    <xs:element name="Buy" type="xs:string"/>
+    <xs:element name="star" type="xs:string"/>
+    <xs:element name="halfstar" type="xs:string"/>
+    <xs:element name="Review" type="xs:string"/>
+    <xs:element name="Heading" type="xs:string"/>
+    <xs:element name="GiftcardAbout" type="xs:token"/>
+    <xs:element name="location" type="xs:string"/>
+    <xs:element name="Address" type="xs:string"/>
+    <xs:element name="PhoneNO" type="xs:string"/>
+    <xs:element name="WebsiteURL" type="xs:string"/>
+    <xs:element name="Visa" type="xs:string"/>
+    <xs:element name="Mastercard" type="xs:string"/>
+    <xs:element name="Facebook" type="xs:string"/>
+    <xs:element name="Instagram" type="xs:string"/>
+    <xs:element name="Twitter" type="xs:string"/>
+
+    <!-- Attributes Define -->
+    <xs:attribute name="storename" type="xs:string"/>
+    <xs:attribute name="cid" type="xs:ID"/>
+    <xs:attribute name="heading" type="xs:string"/>
+    <xs:attribute name="location" type="xs:string"/>
+    <xs:attribute name="method" type="xs:string"/>
+    <xs:attribute name="sites" type="xs:string"/>
+
+
+    <!-- Using Email Restriction -->
+    <xs:element name="Email">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:pattern value="[^@]+@[^\.]+\..+"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+  
+</xs:schema>

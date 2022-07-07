@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- [prolog define] -->
+<!-- 
+    Author: Khemraj Singh Thakuri
+    Date: 2022/04/29
+    LondonmetID: 20049408
+ -->
+<?xml-stylesheet href="catalog_20049408.css" type="text/css"?>
+<!-- Link CSS file catlog_20049408.css -->
+
+<!-- GiftCard Root Element and schema link-->
+
+<GiftCard storename="giftcard" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">   <!-- Attribute -->
+<!-- Header Section -->
+    <Header>
+        <Logo></Logo>
+        <BrandName>Gift Card</BrandName>
+        <Navbar>
+            <Home>Home</Home>
+            <Shop>Shop</Shop>
+            <About>About</About>
+            <Contact>Contact</Contact>
+        </Navbar>
+        <ShopCartlogo></ShopCartlogo>
+        <Walletlogo></Walletlogo>
+        <Userlogo></Userlogo>
+    </Header>
+<!-- Header Section End -->
+
+    <Title>New Arivals</Title>
+
+<!-- Main card Section  -->
+    <CardSection>
+
+        <!-- Card1 -->
+        <Card1 cid="card_001"> <!-- Attribute -->
+            <FavouriteIcon></FavouriteIcon>  <!-- optinal element  -->
+            <Price>&#163;100</Price>
+            <StreamIMG></StreamIMG>
+            <Name>Stream</Name>
+            <Discount>10% off</Discount>
+            <ValidDate>Valid: 2023-12-12</ValidDate>
+            <Availability>Availability: In stock</Availability>
+            <Delivery>Delivery time: Instant</Delivery> <!-- optinal element  -->
+            <Button>
+                <Addtocart>Add to Cart</Addtocart>
+                <Buy>Buy</Buy>
+            </Button>
+            <Rating>
+                <star></star>   <!-- optinal element  -->
+                <star></star>   <!-- optinal element  -->
+                <star></star>   <!-- optinal element  -->
+                <star></star>   <!-- optinal element  -->
+                <halfstar></halfstar>
+            </Rating>
+            <Review>15 Review</Review> <!-- optinal element  -->
+        </Card1>
+
+        <!-- Card1 end -->
+
+        <Card2 cid="card_002"> <!-- Attribute -->
+            <FavouriteIcon></FavouriteIcon> <!-- optinal element  -->
+            <Price>&#163;50</Price>
+            <RazerIMG></RazerIMG>
+            <Name>Razer</Name>
+            <Discount>5% off</Discount>
+            <ValidDate>Valid: 2023-07-30</ValidDate>
+            <Availability>Availability: In stock</Availability>
+            <Delivery>Delivery time: Instant</Delivery> <!-- optinal element  -->
+            <Button>
+                <Addtocart>Add to Cart</Addtocart>
+                <Buy>Buy</Buy>
+            </Button>
+            <Rating>
+                <star></star> <!-- optinal element  -->
+                <star></star> <!-- optinal element  -->
+                <star></star> <!-- optinal element  -->
+                <star></star> <!-- optinal element  -->
+                <halfstar></halfstar>
+            </Rating>
+            <Review>10 Review</Review> <!-- optinal element  -->
+        </Card2>
+
+        <Card3 cid="card_003"> <!-- Attribute -->
+            <FavouriteIcon></FavouriteIcon> <!-- optinal element  -->
+            <Price>&#163;100</Price>
+            <PlaystationIMG></PlaystationIMG>
+            <Name>PlayStation</Name>
+            <Discount>10% off</Discount>
+            <ValidDate>Valid: 2023-04-15</ValidDate>
+            <Availability>Availability: Out of stock</Availability>
+            <Delivery>Delivery time: Instant</Delivery> <!-- optinal element  -->
+            <Button>
+                <Addtocart>Add to Cart</Addtocart>
+                <Buy>Buy</Buy>
+            </Button>
+            <Rating>
+                <star></star> <!-- optinal element  -->
+                <star></star> <!-- optinal element  -->
+                <star></star> <!-- optinal element  -->
+                <star></star> <!-- optinal element  -->
+                <halfstar></halfstar>
+            </Rating>
+            <Review>57 Review</Review> <!-- optinal element  -->
+        </Card3>
+
+        <Card4 cid="card_004"> <!-- Attribute -->
+            <FavouriteIcon></FavouriteIcon> <!-- optinal element  -->
+            <Price>&#163;50</Price>
+            <AppleIMG></AppleIMG>
+            <Name>Apple</Name>
+            <Discount>5% off</Discount>
+            <ValidDate>Valid: 2023-02-12</ValidDate>
+            <Availability>Availability: Out of stock</Availability>
+            <Delivery>Delivery time: Instant</Delivery> <!-- optinal element  -->
+            <Button>
+                <Addtocart>Add to Cart</Addtocart>
+                <Buy>Buy</Buy>
+            </Button>
+            <Rating>
+                <star></star> <!-- optinal element  -->
+                <star></star> <!-- optinal element  -->
+                <star></star> <!-- optinal element  -->
+                <star></star> <!-- optinal element  -->
+                <halfstar></halfstar>
+            </Rating>
+            <Review>40 Review</Review> <!-- optinal element  -->
+        </Card4>
+        
+        <Card5 cid="card_005"> <!-- Attribute -->
+            <FavouriteIcon></FavouriteIcon> <!-- optinal element  -->
+            <Price>&#163;100</Price>
+            <XboxIMG></XboxIMG>
+            <Name>Xbox</Name>
+            <Discount>10% off</Discount>
+            <ValidDate>Valid: 2024-06-20</ValidDate>
+            <Availability>Availability: In stock</Availability>
+            <Delivery>Delivery time: Instant</Delivery> <!-- optinal element  -->
+            <Button>
+                <Addtocart>Add to Cart</Addtocart>
+                <Buy>Buy</Buy>
+            </Button>
+            <Rating>
+                <star></star> <!-- optinal element  -->
+                <star></star> <!-- optinal element  -->
+                <star></star> <!-- optinal element  -->
+                <star></star> <!-- optinal element  -->
+                <halfstar></halfstar>
+            </Rating>
+            <Review>97 Review</Review> <!-- optinal element  -->
+        </Card5>
+
+        <Card6 cid="card_006"> <!-- Attribute -->
+            <FavouriteIcon></FavouriteIcon> <!-- optinal element  -->
+            <Price>&#163;10</Price>
+            <GoogleplayIMG></GoogleplayIMG>
+            <Name>Google Play</Name>
+            <Discount>2% off</Discount>
+            <ValidDate>Valid: 2022-02-17</ValidDate>
+            <Availability>Availability: In stock</Availability>
+            <Delivery>Delivery time: Instant</Delivery> <!-- optinal element  -->
+            <Button>
+                <Addtocart>Add to Cart</Addtocart>
+                <Buy>Buy</Buy>
+            </Button>
+            <Rating>
+                <star></star> <!-- optinal element  -->
+                <star></star> <!-- optinal element  -->
+                <star></star> <!-- optinal element  -->
+                <star></star> <!-- optinal element  -->
+                <halfstar></halfstar>
+            </Rating>
+            <Review>0 Review</Review> <!-- optinal element  -->
+        </Card6>
+        
+    </CardSection>
+<!-- Main card Section End -->
+
+<!-- Footer Section  -->
+    <Footer>
+
+        <Aboutus heading="About"> <!-- Attribute -->
+            <Heading>About</Heading>
+            <GiftcardAbout>At Gift Card Store, our mission is to make gifting great.we offer a wide range of eGift cards to suit every age, interest and occasion.
+            </GiftcardAbout> <!-- optinal element  -->
+        </Aboutus>
+
+        <ContactInfo location="UK">  <!-- Attribute -->
+            <Heading>Contact Info</Heading>
+            <location>United Kingdom</location>
+            <Address>North Lanarkshire, Coatbridge</Address>
+            <Email>info@giftcard.com.uk</Email>
+            <PhoneNO>+44 344 381 5065</PhoneNO>
+            <WebsiteURL>www.giftcard.com.uk</WebsiteURL>
+        </ContactInfo>
+
+        <Payment method="online"> <!-- Attribute -->
+            <Heading>Payment</Heading> <!-- optinal element  -->
+            <Methods>
+                <Visa></Visa>
+                <Mastercard></Mastercard>
+            </Methods>
+        </Payment>
+
+        <Follow sites="social"> <!-- Attribute -->
+            <Heading>Follow us</Heading>
+            <SocialLink>
+                <Facebook></Facebook>
+                <Instagram></Instagram>
+                <Twitter></Twitter>
+            </SocialLink>
+        </Follow>
+
+    </Footer>
+<!-- Footer Section End -->
+</GiftCard>
+
+<!-- GiftCard Root Element End  -->
